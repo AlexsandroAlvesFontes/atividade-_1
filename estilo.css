@@ -1,0 +1,196 @@
+/* ==============================
+   CONFIGURAÇÕES GERAIS
+   ============================== */
+
+body {
+    background-image: url("img/inicio.png");
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+
+/* ==============================
+   CABEÇALHO
+   ============================== */
+
+header {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+header p {
+    margin: 8px 0 0;
+}
+
+
+/* ==============================
+   MENU
+   ============================== */
+
+nav {
+    background-color: #333;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* ==============================
+   CONTEÚDO PRINCIPAL
+   ============================== */
+
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+
+/* ==============================
+   SEÇÕES
+   ============================== */
+
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+/* ==============================
+   IMAGENS
+   ============================== */
+
+section img {
+    
+    display: block;
+    width: 100%;
+    max-width: 700px;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+
+/* ==============================
+   CARDS DE SERVIÇOS
+   ============================== */
+
+.servicos {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    flex: 1;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+
+/* ==============================
+   FORMULÁRIOS
+   ============================== */
+
+.formulario {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+
+/* ==============================
+   PÁGINA SOBRE
+   ============================== */
+
+.sobre {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.sobre div {
+    flex: 1;
+}
+
+.sobre img {
+    margin: 0;
+}
+
+
+/* ==============================
+   RODAPÉ
+   ============================== */
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}

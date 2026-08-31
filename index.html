@@ -1,24 +1,26 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
-    <title>Cyber Café - Início</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Café</title>
 
-    <!-- Ligação com o arquivo CSS -->
     <link rel="stylesheet" href="estilo.css">
-    
 </head>
 
 <body>
 
-    <!-- Cabeçalho -->
+    <!-- CABEÇALHO -->
     <header>
-        <h1>Cyber Café</h1>
+        <div class="logo">
+            ☕ Cyber Café
+        </div>
         <p>Café, tecnologia e diversão</p>
     </header>
 
-    <!-- Menu de navegação -->
+
+    <!-- MENU -->
     <nav>
         <a href="index.html">Início</a>
         <a href="cadastro.html">Cadastro</a>
@@ -26,61 +28,115 @@
         <a href="sobre.html">Sobre</a>
     </nav>
 
-    <!-- Conteúdo principal -->
+
+    <!-- CONTEÚDO PRINCIPAL -->
     <main>
-
-        <section>
-            <h2>Bem-vindo ao Cyber Café</h2>
-
-            <p>
-                Um espaço agradável para tomar um café,
-                utilizar computadores, estudar, trabalhar
-                ou se divertir com os amigos.
-            </p>
-
-            <img src=""
-                 alt="Interior do Cyber Café com computadores">
-
-        </section>
-
-        <section>
-            <h2>Nossos serviços</h2>
-
-            <div class="servicos">
-
-                <div class="card">
-                    <h3>☕ Cafés</h3>
-                    <p>
-                        Café e outras bebidas para acompanhar
-                        seu momento.
-                    </p>
-                </div>
-
-                <div class="card">
-                    <h3>💻 Computadores</h3>
-                    <p>
-                        Computadores disponíveis para estudo,
-                        trabalho e entretenimento.
-                    </p>
-                </div>
-
-                <div class="card">
-                    <h3>🎮 Games</h3>
-                    <p>
-                        Um espaço para aproveitar seus jogos
-                        favoritos.
-                    </p>
-                </div>
-
+         <!-- BANNER -->
+        <section class="hero">
+            <div class="hero-conteudo">
+                <span class="subtitulo">
+                    ☕ CAFÉ • 💻 TECNOLOGIA • 🎮 GAMES
+                </span>
+                <h1>
+                    Bem-vindo ao Cyber Café
+                </h1>
+                <p>
+                    Um espaço para tomar um bom café,
+                    estudar, trabalhar, jogar e aproveitar
+                    o seu tempo.
+                </p>
+                <a href="#servicos" class="botao">
+                    Conheça nosso espaço
+                </a>
             </div>
         </section>
 
+
+        <!-- SERVIÇOS -->
+        <section id="servicos" class="servicos">
+            <h2>Nossos serviços</h2>
+            <p class="descricao">
+                Tudo o que você precisa em um só lugar.
+            </p>
+            <div class="cards">
+                <!-- CARD CAFÉ -->
+                <div class="card">
+
+                    <div class="icone">
+                        ☕
+                    </div>
+                    <h3>Cafés</h3>
+                    <p>
+                        Café e outras bebidas para
+                        acompanhar seu momento.
+                    </p>
+                    <a href="#" class="link">
+                        Saiba mais →
+                    </a>
+                </div>
+
+
+                <!-- CARD COMPUTADORES -->
+                <div class="card">
+                    <div class="icone">
+                        💻
+                    </div>
+                    <h3>Computadores</h3>
+                    <p>
+                        Computadores disponíveis para
+                        estudo, trabalho e entretenimento.
+                    </p>
+                    <a href="#" class="link">
+                        Saiba mais →
+                    </a>
+                </div>
+
+
+                <!-- CARD GAMES -->
+                <div class="card">
+                    <div class="icone">
+                        🎮
+                    </div>
+                    <h3>Games</h3>
+                    <p>
+                        Um espaço para aproveitar
+                        seus jogos favoritos.
+                    </p>
+                    <a href="#" class="link">
+                        Saiba mais →
+                    </a>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- SEÇÃO SOBRE -->
+        <section class="chamada">
+            <h2>Um lugar para você</h2>
+            <p>
+                Venha estudar, trabalhar, jogar ou
+                simplesmente relaxar tomando um café.
+            </p>
+            <a href="contato.html" class="botao">
+                Entre em contato
+            </a>
+        </section>
     </main>
 
-    <!-- Rodapé -->
+
+    <!-- RODAPÉ -->
     <footer>
-        <p>&copy; 2026 Cyber Café - Todos os direitos reservados.</p>
+        <div class="footer-logo">
+            ☕ Cyber Café
+        </div>
+        <p>
+            Café, tecnologia e diversão.
+        </p>
+        <p class="copyright">
+            © 2026 Cyber Café - Todos os direitos reservados.
+        </p>
     </footer>
 
 </body>
+
 </html>

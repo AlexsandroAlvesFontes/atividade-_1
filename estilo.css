@@ -292,3 +292,87 @@ footer .copyright {
         padding: 40px 20px;
     }
 }
+
+/* =========================
+   ESTILOS DO CADASTRO
+========================= */
+
+.pagina-cadastro {
+    background: white;
+    max-width: 850px;
+    margin: 40px auto;
+    padding: 45px;
+    border-radius: 12px;
+}
+
+.titulo-pagina {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.titulo-pagina span {
+    font-size: 40px;
+}
+
+.titulo-pagina h1 {
+    font-size: 32px;
+    margin: 10px 0;
+}
+
+.titulo-pagina p {
+    color: #666;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.campo label {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.campo input {
+    padding: 13px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    font-size: 15px;
+}
+
+.campo input:focus {
+    outline: none;
+    border-color: #7042e8;
+}
+
+.linha {
+    display: flex;
+    gap: 20px;
+}
+
+.linha .campo {
+    flex: 1;
+}
+
+.termos {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 25px;
+}
+
+.botoes-formulario {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.botoes-formulario button {
+    border: none;
+    cursor: pointer;
+}
+
+.cancelar {
+    background: #555;
+}
